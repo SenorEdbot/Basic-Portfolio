@@ -4,10 +4,35 @@
 <head>
   <meta charset="UTF-8">
   <title>Contacts</title>
-  <link rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body>
-  
+<body> 
+  <nav class="navBar">
+      <a class="navBarLink" href="index.html">Eddie Franco</a>
+      <ul class="navBarLinks">
+        <li class="navLink1">About</li>
+        <li class="navLink2">Portfolio</li>
+        <li class="navLink3">Contact</li>
+      </ul>
+    </nav>
+  <div class="wrapper">
+    <section class="contactContent">
+      <h2>Contact</h2>
+      <hr>
+      <form id="contactForm">
+        Name:<br>
+        <input type="text" name="name" placeholder="John Smith"><br>
+        Email:<br>
+        <input type="email" name="email" placeholder="example@gmail.com"><br>
+        Message:<br>
+        <textarea name="message"></textarea><br>
+        <input type="submit">
+      </form>
+    </section>
+  </div>
+  <footer>
+      <div>Copyright &#169;</div>
+    </footer>
 </body>
 </html>
